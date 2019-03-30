@@ -45,7 +45,7 @@ vector<string> split(string str, string character){
 
 int main()
 {
-	ofstream fout("dataset.in");
+	ofstream fout("../dataset.in");
 	for (const auto & entry : fs::directory_iterator("./")){
 		string filename=replace(entry.path(),"./","");
 		if(!is_number(string(1,filename[0]))){
