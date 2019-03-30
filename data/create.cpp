@@ -52,7 +52,7 @@ int main()
 		if(!is_number(string(1,filename[0]))){
 			continue;
 		}
-		int count=0;
+//		int count=0;
 		for (const auto & image : fs::directory_iterator(entry.path())){
 			vector<string> splitName=split(image.path().string(),".");
 			if(splitName.size()>1){
@@ -71,10 +71,10 @@ int main()
 					}
 					fout << stoi(split(newName,"/")[1]);
 					fout << endl;
-				}
+				}/*
 				if(++count>=25){
 					break;
-				}
+				}*/
 			}
 		}
 	}
