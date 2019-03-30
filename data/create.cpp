@@ -1,3 +1,4 @@
+//g++ create.cpp -g -lstdc++fs -o result;./result;rm result
 #include <experimental/filesystem>
 #include <iostream>
 #include <fstream>
@@ -77,8 +78,9 @@ int main()
 			}
 		}
 	}
-
-
+	fs::remove("../tests.in");
+	fs::copy("../dataset.in","../tests.in");
+	
 /*
 	ofstream fout("test.out");
 	Bitmap image;
