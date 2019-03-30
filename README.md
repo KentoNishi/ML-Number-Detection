@@ -7,7 +7,7 @@ This project uses code from [Simple Neural Network](https://github.com/KentoNish
 
 ## Details
 All images in this repository are resized to ``16x16`` with 24 bit color.
-The first 100 images of each digit are converted into the ``data.in`` format for the neural network. The pixel values are encoded into a floating point number the following fashion:
+The first 100 images of each digit are converted into the ``data.in`` format for the neural network. The pixel values are encoded into a list of floating point numbers in the following fashion:
 ```
 1-(((r+g+b)/3)/255)
 ```
