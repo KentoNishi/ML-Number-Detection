@@ -72,7 +72,7 @@ int main()
 					fout << stoi(split(newName,"/")[1]);
 					fout << endl;
 				}
-				if(++count>=20){
+				if(++count>=1000){
 					break;
 				}
 			}
