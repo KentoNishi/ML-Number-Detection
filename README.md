@@ -20,3 +20,5 @@ The ``data`` subdirectory contains the samples used for creating the dataset, as
 
 ## Issues
 * Configuration parameters were manually selected, so they may be highly inefficient.
+* The code uses stochastic gradient descent, causing speed issues.
+* The code uses sigmoid activation functions, causing speed issues.
