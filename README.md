@@ -22,3 +22,5 @@ The ``data`` subdirectory contains the samples used for creating the dataset, as
 * Configuration parameters were manually selected, so they may be highly inefficient.
 * The code uses stochastic gradient descent, causing speed issues.
 * The code uses sigmoid activation functions, causing speed issues.
+* The tests are identical to the dataset, causing almost 100% accuracy.
+* Large datasets do not run in sufficient time.
