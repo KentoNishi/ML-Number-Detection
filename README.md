@@ -1,6 +1,6 @@
 # Machine Learning Number Detection
 
-A *slow and unoptimized* number detection neural network by Kento Nishi.
+A *slow and unoptimized* number detection neural network.
 
 ## About
 This project uses code from [Simple Neural Network](https://github.com/KentoNishi/Simple-Neural-Network) and [Bitmap Numbers Dataset](https://github.com/KentoNishi/Bitmap-Numbers-Dataset).
