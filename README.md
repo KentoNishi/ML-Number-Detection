@@ -3,7 +3,7 @@
 A *slow and unoptimized* number detection neural network.
 
 ## About
-This project uses code from [Simple Neural Network](https://github.com/KentoNishi/Simple-Neural-Network) and [Bitmap Numbers Dataset](https://github.com/KentoNishi/Bitmap-Numbers-Dataset).
+This project uses code from [Simple Neural Network](https://github.com/KentoNishi/Simple-Neural-Network/tree/v1) and [Bitmap Numbers Dataset](https://github.com/KentoNishi/Bitmap-Numbers-Dataset).
 
 ## Details
 All images in this repository are resized to ``16x16`` with 24 bit color.
